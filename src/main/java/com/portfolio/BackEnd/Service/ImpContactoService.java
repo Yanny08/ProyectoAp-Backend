@@ -26,12 +26,12 @@ public class ImpContactoService implements IContactoService {
     }
 
     @Override
-    public void deleteContacto(int id) {
+    public void deleteContacto(Long id) {
         icontactoRepository.deleteById(id);
     }
 
     @Override
-    public Contacto findContacto(int id) {
+    public Contacto findContacto(Long id) {
         Contacto contacto = icontactoRepository.findById(id).orElse(null);
         return contacto;
     }

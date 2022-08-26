@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 
 
 @Repository
-public interface IContactoRepository extends JpaRepository <Contacto,Integer>{
+public interface IContactoRepository extends JpaRepository <Contacto,Long>{
     
 }

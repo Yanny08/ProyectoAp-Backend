@@ -5,6 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IResumenEduRepository extends JpaRepository <ResumenEdu,Integer>{
+public interface IResumenEduRepository extends JpaRepository <ResumenEdu,Long>{
     
 }

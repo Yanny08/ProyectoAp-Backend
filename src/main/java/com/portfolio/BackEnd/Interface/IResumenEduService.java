@@ -8,7 +8,7 @@ public interface IResumenEduService {
 
     public void saveResumenEdu(ResumenEdu resumenEdu);
 
-    public void deleteResumenEdu(int id);
+    public void deleteResumenEdu(Long id);
 
-    public ResumenEdu findResumenEdu(int id); 
+    public ResumenEdu findResumenEdu(Long id); 
 }

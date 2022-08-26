@@ -5,6 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ISobreMiRepository extends JpaRepository <SobreMi,Integer>{
+public interface ISobreMiRepository extends JpaRepository <SobreMi,Long>{
     
 }

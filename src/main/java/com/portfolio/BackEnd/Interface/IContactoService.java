@@ -8,8 +8,8 @@ public interface IContactoService {
 
     public void saveContacto(Contacto contacto);
 
-    public void deleteContacto(int id);
+    public void deleteContacto(Long id);
 
-    public Contacto findContacto(int id);
+    public Contacto findContacto(Long id);
     
 }

@@ -25,12 +25,12 @@ public class ImpResumenEduService implements IResumenEduService {
     }
 
     @Override
-    public void deleteResumenEdu(int id) {
+    public void deleteResumenEdu(Long id) {
         iresumenEduRepository.deleteById(id);
     }
 
     @Override
-    public ResumenEdu findResumenEdu(int id) {
+    public ResumenEdu findResumenEdu(Long id) {
         ResumenEdu resumenEdu = iresumenEduRepository.findById(id).orElse(null);
         return resumenEdu;
     }

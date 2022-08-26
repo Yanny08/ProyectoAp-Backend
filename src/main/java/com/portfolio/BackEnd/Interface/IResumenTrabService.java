@@ -8,7 +8,7 @@ public interface IResumenTrabService {
 
     public void saveResumenTrab(ResumenTrab resumenTrab);
 
-    public void deleteResumenTrab(int id);
+    public void deleteResumenTrab(Long id);
 
-    public ResumenTrab findResumenTrab(int id);
+    public ResumenTrab findResumenTrab(Long id);
 }

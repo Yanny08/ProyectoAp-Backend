@@ -25,12 +25,12 @@ public class ImpResumenTrabService implements IResumenTrabService {
     }
 
     @Override
-    public void deleteResumenTrab(int id) {
+    public void deleteResumenTrab(Long id) {
         iresumenTrabRepository.deleteById(id);
     }
 
     @Override
-    public ResumenTrab findResumenTrab(int id) {
+    public ResumenTrab findResumenTrab(Long id) {
         ResumenTrab resumenTrab = iresumenTrabRepository.findById(id).orElse(null);
         return resumenTrab;
     }

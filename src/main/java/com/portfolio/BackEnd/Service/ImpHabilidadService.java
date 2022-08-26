@@ -7,6 +7,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+
 @Service
 public class ImpHabilidadService implements IHabilidadService {
 
@@ -25,12 +26,12 @@ public class ImpHabilidadService implements IHabilidadService {
     }
 
     @Override
-    public void deleteHabilidad(int id) {
+    public void deleteHabilidad(Long id) {
         ihabilidadRepository.deleteById(id);
     }
 
     @Override
-    public Habilidad findHabilidad(int id) {
+    public Habilidad findHabilidad(Long id) {
         Habilidad habilidad = ihabilidadRepository.findById(id).orElse(null);
         return habilidad;
     }

@@ -9,8 +9,8 @@ public interface ISobreMiService {
     
     public void saveSobreMi(SobreMi sobreMi);
     
-    public void deleteSobreMi(int id);
+    public void deleteSobreMi(Long id);
 
-    public SobreMi findSobreMi(int id);
+    public SobreMi findSobreMi(Long id);
     
 }

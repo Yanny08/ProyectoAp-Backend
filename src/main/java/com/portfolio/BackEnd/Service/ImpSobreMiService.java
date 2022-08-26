@@ -24,12 +24,12 @@ public class ImpSobreMiService implements ISobreMiService  {
     }
 
     @Override
-    public void deleteSobreMi(int id) {
+    public void deleteSobreMi(Long id) {
        isobreMiRepository.deleteById(id);
     }
 
     @Override
-    public SobreMi findSobreMi(int id) {
+    public SobreMi findSobreMi(Long id) {
        SobreMi sobreMi = isobreMiRepository.findById(id).orElse(null);
        return sobreMi;
     }

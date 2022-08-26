@@ -8,8 +8,8 @@ public interface IProyectoService {
 
     public void saveProyecto(Proyecto proyecto);
 
-    public void deleteProyecto(int id);
+    public void deleteProyecto(Long id);
 
-    public Proyecto findProyecto(int id);
+    public Proyecto findProyecto(Long id);
     
 }
